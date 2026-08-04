@@ -2,6 +2,8 @@
 
 A simple and responsive To-Do List web application.
 
+[View Live Demo](https://skyrwalker.github.io/To-do-list/)
+
 ## Features
 
 - Add and delete tasks
