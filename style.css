@@ -125,4 +125,7 @@ h1 {
     #add-btn {
         width: 100%;
     }
+    #task-list {
+        display: none;
+    }
 }
