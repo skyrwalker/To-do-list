@@ -8,9 +8,13 @@ let tasks = [];
 const savedTasks = localStorage.getItem("tasks");
 
 if (savedTasks) {
-    tasks = JSON.parse(savedTasks);
+    try {
+        tasks = JSON.parse(savedTasks);
+    } catch (error) {
+        tasks = [];
+        localStorage.removeItem("tasks");
+    }
 }
-
 function saveTasks() {
     localStorage.setItem("tasks", JSON.stringify(tasks));
 }
