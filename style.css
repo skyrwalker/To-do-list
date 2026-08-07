@@ -122,12 +122,15 @@ h1 {
     .input-area {
         flex-direction: column;
     }
+    #task-input {
+        margin-bottom: 0.5rem;
+    }
     #add-btn {
         width: 100%;
-        margin-bottom: 1rem;
+        margin-bottom: 0;
     }
     #task-list {
-        margin-top: 0;
+        margin-top: 1rem;
     }
     #clear-btn { 
         margin-top: 0;
