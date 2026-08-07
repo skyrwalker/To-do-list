@@ -126,6 +126,9 @@ h1 {
         width: 100%;
     }
     #task-list {
+        margin: 0;
+    }
+    #clear-btn { 
         margin-top: 0;
     }
 }
