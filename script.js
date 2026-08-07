@@ -49,7 +49,7 @@ function createTask(task) {
     taskList.append(li);
 }
 
-function renderTasks() {
+function renderTasks() { 
     taskList.innerHTML = "";
 
     tasks.forEach(function(task) {
